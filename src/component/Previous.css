@@ -1,0 +1,36 @@
+@media (min-width: 200px) and (max-width: 992px){
+    .previous{
+      margin:  40px 60px;
+
+    }
+      
+
+}
+.container{
+    margin-top: 100px;
+}
+
+/* paper */
+.paper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+  grid-gap: 40px;
+}
+.search{
+  background:#fff;
+  width:350px;
+  border:2px solid black;
+}
+
+
+@media (min-width: 200px) and (max-width: 992px){
+  .pbox{
+  margin: 5px 30px;
+  }
+  .search{
+   width:300px;
+  }
+
+    
+
+}
